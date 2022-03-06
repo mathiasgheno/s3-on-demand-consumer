@@ -1,0 +1,17 @@
+{
+  "name": "s3-on-demand-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui": "lerna exec --scope ui -- npm start",
+    "bff": "lerna exec --scope bff -- npm start",
+    "start": "npm run bff & npm run ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "bff",
+  "version": "0.0.0",
+  "description": "simple bff example",
+  "keywords": [
+    "bff",
+    "s3-on-demand-example"
+  ],
+  "author": "mathias <mathiasgheno@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
