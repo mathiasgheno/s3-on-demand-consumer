@@ -6,6 +6,6 @@ This repo was create as an exemplo to use with the [s3-on-demand-action](https:/
 
 ```bash
 
-npm install && lerna bootstrap && npm start
+yarn install && lerna bootstrap && yarn start
 
 ```

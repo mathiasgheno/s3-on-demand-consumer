@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ui": "lerna exec --scope ui -- npm start",
-    "bff": "lerna exec --scope bff -- npm start",
-    "start": "npm run bff & npm run ui"
+    "ui": "lerna exec --scope main-ui -- yarn start",
+    "bff": "lerna exec --scope bff -- yarn start",
+    "start": "yarn run bff & yarn run ui"
   },
   "keywords": [],
   "author": "",
